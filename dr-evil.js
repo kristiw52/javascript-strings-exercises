@@ -16,7 +16,8 @@ function drEvil (amount) {
 	if (amount == 1000000) {
 		return amount + " dollars (pinky)";
 	} else {
-		return amount + " dollars";
-	}
-}	
-drEvil(1000000);
+	return amount + " dollars";
+}
+}
+console.log(drEvil(1000000));
+console.log(drEvil(10000));

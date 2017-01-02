@@ -12,3 +12,9 @@ the string is at least one character long. For example:
 */
 
 // YOUR CODE GOES HERE
+function fixStart(a) {
+   var c = a.charAt(0);
+   return c + a.slice(1).replace(new RegExp(c, 'b'), '*');
+}
+
+console.log(fixStart(bubble));
